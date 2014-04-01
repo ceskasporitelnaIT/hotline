@@ -19,7 +19,7 @@
     #pbContainer___MODULE_ID__ {
         font:73% Arial,Helvetica,sans-serif;
         padding:5px;
-        background-color:transparent;
+        background-color:#0f2f75;
         border:1px solid #7B9EBD;
     }
     #progressbar___MODULE_ID__ {
