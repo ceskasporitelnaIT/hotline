@@ -2093,7 +2093,7 @@ if (/Konqueror|Safari|KHTML/.test(navigator.userAgent)) {
             this.url = url;
             this.timeout = timeout;
             //$("message___MODULE_ID__").innerHTML = this.url + ":" + this.timeout + "s ";
-            $("message___MODULE_ID__").innerHTML = "Remaining " + this.timeout + "s ";            
+                     
             this.delayer = new Delayer(this.timeout,{onProcess:this.waiting.bind(this),onComplete:this.redirect.bind(this)});
             Event.observe("ctlStop___MODULE_ID__", "click", this.stop.bind(this));
         },
