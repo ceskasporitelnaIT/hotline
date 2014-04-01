@@ -23,10 +23,14 @@
         border:0px
     }
     #progressbar___MODULE_ID__ {
-        border:1px solid #7B9EBD;
         background-color:#2e88ee;
         padding:2px;
         border-radius:5px
+    }
+    #progress___MODULE_ID__{
+    background-color:#0f2f75;
+        
+        border-radius:2px
     }
 </style>
 <div id="pbContainer___MODULE_ID__">
@@ -35,7 +39,7 @@
     </div>
     
     <div id="progressbar___MODULE_ID__">
-        <div id="progress___MODULE_ID__" style="background-color:#0f2f75;height:10px;width:100%"></div>
+        <div id="progress___MODULE_ID__" style="height:10px;width:100%"></div>
     </div>
     
 </div>
