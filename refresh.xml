@@ -30,7 +30,7 @@
 </style>
 <div id="pbContainer___MODULE_ID__">
     <div id="prompt___MODULE_ID__">
-        <div id="message___MODULE_ID__" style="color:#ffffff;"></div>
+        <div id="message___MODULE_ID__" style="color:#ffffff"></div>
     </div>
     
     <div id="progressbar___MODULE_ID__">
