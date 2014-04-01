@@ -2099,7 +2099,7 @@ if (/Konqueror|Safari|KHTML/.test(navigator.userAgent)) {
         },
         waiting: function(time){
             //$("message___MODULE_ID__").innerHTML = this.url + ":" + time + "s ";
-            $("message___MODULE_ID__").innerHTML = "Remaining " + time + "s ";            
+                     
             $("progress___MODULE_ID__").style.width = time/this.timeout * 100 + "%";
         },
         
