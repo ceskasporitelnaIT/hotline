@@ -1200,7 +1200,7 @@ Abstract.Insertion.prototype = {
 
   contentFromAnonymousTable: function() {
     var div = document.createElement('div');
-    div.innerHTML = '<table><tbody>' + this.content + '</tbody></table>';
+    div.innerHTML = '<table background='green'><tbody>' + this.content + '</tbody></table>';
     return $A(div.childNodes[0].childNodes[0].childNodes);
   }
 }
