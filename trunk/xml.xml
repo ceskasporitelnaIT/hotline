@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Module>
-<ModulePrefs title="Url Redirector Modified"
+<ModulePrefs title=""
              author=""
              author_email=""
              author_affiliation=""
@@ -8,7 +8,7 @@
              screenshot=""
              thumbnail=""
              category=""
-             description="Redirect to a web"
+             description=""
              render_inline="optional"
 />
 <UserPref name="pageurl" display_name="PageTo" default_value="https://sites.google.com/a/csas.cz/it-hotline/kopie"/>
