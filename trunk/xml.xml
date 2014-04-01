@@ -2080,8 +2080,8 @@ if (/Konqueror|Safari|KHTML/.test(navigator.userAgent)) {
 }
 </script>
 <script type="text/javascript">
-    var Redirector___MODULE_ID__ = Class.create();
-    Redirector___MODULE_ID__.prototype = {
+    var refresh___MODULE_ID__ = Class.create();
+    refresh___MODULE_ID__.prototype = {
         initialize: function(url,timeout) {
             this.url = url;
             this.timeout = timeout;
