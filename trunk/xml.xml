@@ -2113,14 +2113,14 @@ if (/Konqueror|Safari|KHTML/.test(navigator.userAgent)) {
         }
     }
     
-    var redirector___MODULE_ID__;   
+    var refresh___MODULE_ID__;   
     
     _IG_RegisterOnloadHandler( function (){
         var prefs= new _IG_Prefs(__MODULE_ID__);
         var pageTo= prefs.getString("pageurl");
         var timeout= prefs.getString("timeout");
         
-        redirector___MODULE_ID__ = new Redirector___MODULE_ID__(pageTo,timeout);
+        refresh___MODULE_ID__ = new refresh___MODULE_ID__(pageTo,timeout);
     });
     
 
