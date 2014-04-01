@@ -3,7 +3,7 @@
   <ModulePrefs title="hello world example" /> 
   <Content type="html">
      <![CDATA[ 
-       var intervalId = window.setInterval(function() { /*your code to refresh here*/ },
+       var intervalId = window.setInterval(function() { location.reload(true);},
   1000 //1 second in milliseconds);
 
 //Do this to stop the function running if necessary...
