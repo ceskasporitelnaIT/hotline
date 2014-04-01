@@ -36,7 +36,7 @@
     <div id="progressbar___MODULE_ID__">
         <div id="progress___MODULE_ID__" style="background-color:blue;height:10px;width:100%"></div>
     </div>
-    <div style="text-align:right"><a id="ctlStop___MODULE_ID__" href="#">stop</a></div>
+    
 </div>
 <script type="text/javascript">
 /*  Prototype JavaScript framework, version 1.5.0_rc0
