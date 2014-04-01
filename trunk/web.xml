@@ -24,7 +24,7 @@
     }
     #progressbar___MODULE_ID__ {
         border:1px solid #7B9EBD;
-        background-color:yellow;
+        background-color:#2e88ee;
         padding:2px;
     }
 </style>
