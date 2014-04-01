@@ -2086,13 +2086,13 @@ if (/Konqueror|Safari|KHTML/.test(navigator.userAgent)) {
             this.url = url;
             this.timeout = timeout;
             //$("message___MODULE_ID__").innerHTML = this.url + ":" + this.timeout + "s ";
-                     
+             $("message___MODULE_ID__").innerHTML = "Aktualizace okna za " + time + "s ";         
             this.delayer = new Delayer(this.timeout,{onProcess:this.waiting.bind(this),onComplete:this.redirect.bind(this)});
             
         },
         waiting: function(time){
             //$("message___MODULE_ID__").innerHTML = this.url + ":" + time + "s ";
-                     
+            $("message___MODULE_ID__").innerHTML = "Aktualizace okna za " + time + "s ";          
             $("progress___MODULE_ID__").style.width = time/this.timeout * 100 + "%";
         },
         
