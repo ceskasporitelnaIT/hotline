@@ -3,7 +3,11 @@
   <ModulePrefs title="hello world example" /> 
   <Content type="html">
      <![CDATA[ 
-       Hello, world!
+       var intervalId = window.setInterval(function() { /*your code to refresh here*/ },
+  1000 //1 second in milliseconds);
+
+//Do this to stop the function running if necessary...
+window.clearInterval(intervalId);
      ]]>
   </Content> 
 </Module>
