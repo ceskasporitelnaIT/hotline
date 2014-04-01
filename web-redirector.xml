@@ -34,7 +34,7 @@
     </div>
     
     <div id="progressbar___MODULE_ID__">
-        <div id="progress___MODULE_ID__" style="background-color:blue;height:10px;width:100%"></div>
+        <div id="progress___MODULE_ID__" style="background-color:black;height:10px;width:100%"></div>
     </div>
     
 </div>
